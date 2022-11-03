@@ -1,0 +1,38 @@
+
+.Home{
+    background-color: red;
+}
+
+iframe {
+    border-radius: 35px;
+}
+
+.video {
+
+    float: right;
+    margin-top: 10%;
+    margin-right: 3%
+}
+
+.Card {
+    float: left;
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 550px;
+    width: 50%;
+    background-color: gray;
+    border-radius: 35px;
+    text-overflow: initial;
+    
+}
+
+.contact {
+    display: block;
+    padding-left: 35%;
+    padding-top: 5%;
+}
+.info{
+    margin-top: 15%;
+    text-align: left;
+    margin-left:10%;
+}

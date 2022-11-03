@@ -1,0 +1,29 @@
+main {
+    min-width: 0;
+    min-height:0 ;
+  }
+
+.Layout {
+	height:100%;
+   
+    display:grid;
+    box-sizing: content-box;
+    
+    grid-template-rows: 10% 85% 5%;
+    grid-template-columns: minmax(0, 1fr) 400px; ;
+}
+
+.Layout > Header, .Layout > Footer {
+    grid-column: span 12;
+    box-sizing: content-box;
+}
+
+.Layout > main {
+    grid-column: span 12;
+    box-sizing: content-box;
+
+}
+
+.Layout, .Layout > * {
+    border: 1px solid black;
+}
